@@ -1,5 +1,5 @@
-import * as THREE from 'three'
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import * as THREE from "https://unpkg.com/three@latest/build/three.module.js";
+import { GLTFLoader } from "https://unpkg.com/three@latest/examples/jsm/loaders/GLTFLoader.js";
 
 const camera = new THREE.PerspectiveCamera(
     10,
