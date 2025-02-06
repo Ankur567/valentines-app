@@ -30,8 +30,22 @@ body::before {
     display: flex;
     justify-content: center;
     align-items:first baseline;
-    height: 100vh; /* Full viewport height */
+    height: 10vh; /* Full viewport height */
     color: #eef8ce; /* Example text color */
+}
+#desc {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: auto; /* Full viewport height */
+    width: 40%;
+    color: #eef8ce; /* Example text color */
+}
+#para {
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    padding-left: 200px;
 }
 #container3D {
     position: fixed;

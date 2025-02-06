@@ -7,10 +7,12 @@ body {
   color: #eef8ce;
   display: flex;
   justify-content: center;
+  background-image: url(./backgrounds/cover.jpg);
+  background-size: cover;
+  position: relative;
   align-items: center;
   min-height: 100vh;
 }
-
 /* Container for Buttons */
 .button-container {
   display: grid;
@@ -19,6 +21,7 @@ body {
   max-width: 800px;
   width: 100%;
   padding: 20px;
+  padding-right: 500px;
 }
 
 /* Button Styling */
@@ -27,7 +30,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #333;
+  background-color: #630202;
   color: #eef8ce;
   text-decoration: none;
   padding: 30px;
@@ -36,7 +39,7 @@ body {
 }
 
 .big-button:hover {
-  background-color: #444;
+  background-color: #d41616;
   transform: scale(1.05); /* Slight zoom effect on hover */
 }
 

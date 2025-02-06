@@ -16,8 +16,9 @@ loader.load('../3D-models/red_rose.glb',
     function (glb) {
         rose = glb.scene;
         scene.add(rose);
-        rose.position.y = -1.5
-        rose.scale.set(0.8, 0.8, 0.8);
+        rose.position.y = -1.8
+        rose.position.x = 1.5
+        rose.scale.set(1, 1, 1);
     },
     function (xhr) {},
     function (error) {}
