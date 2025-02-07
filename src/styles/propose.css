@@ -1,10 +1,10 @@
 body {
     margin: 0;
-    font-family: "Leckerli One", serif;
+    font-family: "Germania One", serif;
     font-weight: 400;
     font-style: normal;
     background-color: #1B1B1B; /* Fallback color if image fails to load */
-    color: #eef8ce;
+    color: #ffcfc6;
     font-size: 30px;
     position: relative; /* Needed for pseudo-element positioning */
     min-height: 100vh; /* Ensure full coverage */
@@ -24,6 +24,27 @@ body::before {
     filter: blur(8px); /* Adjust blur intensity (e.g., 5px-10px) */
     z-index: -1; /* Place behind content */
     opacity: 0.7; /* Optional: Reduce brightness for better text contrast */
+}
+#title {
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+    height: 10vh; /* Full viewport height */
+    color: #ffd0ca; /* Example text color */
+}
+#desc {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: auto; /* Full viewport height */
+    width: 40%;
+    padding-left: 80px;
+    color: #fbe2e0; /* Example text color */
+}
+#left {
+    display: flex;
+    justify-content: left;
+    align-items:center;
 }
 #container3D {
     position: fixed;

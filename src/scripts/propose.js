@@ -16,6 +16,7 @@ loader.load('../3D-models/gold_ring.glb',
     function (glb) {
         ring = glb.scene;
         scene.add(ring);
+        ring.position.x = 0.5
         ring.scale.set(1, 1, 1);
     },
     function (xhr) {},
@@ -45,7 +46,7 @@ scene.add(directionalLight);
 const pmremGenerator = new THREE.PMREMGenerator(renderer);
 pmremGenerator.compileEquirectangularShader();
 
-const amblight = new THREE.AmbientLight(0xffffff, 10)
+const amblight = new THREE.AmbientLight(0xffffff, 100)
 scene.add(amblight)
 
 const reRender3D = () => {
