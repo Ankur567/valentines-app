@@ -21,21 +21,28 @@
   </head>
   <body>
     <div>
-      <h1 id="title">
-        Happy Propose Day Mammmma
-      </h1>
+      <h1 id="title">Happy Propose Day Mammmma</h1>
     </div>
     <div id="desc">
       <p id="left">
-        Mammma the last time I proposed you, it was not as perfect as 
-        I wanted it to be. The ambience, the setting, the way I proposed 
-        and also the ring was not how I planned it to be. But most of 
-        the imperfect things are the ones that we remember the most,
-        just like the umbrella he he. The size of the ring was bigger that time
-        but next time it will be perfect. Until I can afford a solitaire,
-        here is one for you babe. Will you be my lovee Mouli? 
+        Mammma the last time I proposed you, it was not as perfect as I wanted
+        it to be. The ambience, the setting, the way I proposed and also the
+        ring was not how I planned it to be. But most of the imperfect things
+        are the ones that we remember the most, just like the umbrella he he.
+        The size of the ring was bigger that time but next time it will be
+        perfect. Until I can afford a solitaire, here is one for you babe. Will
+        you be my lovee Mouli?
       </p>
     </div>
+    <div class="button-container">
+      <button class="btn yes-btn" onclick="start()">Yes</button>
+      <button class="btn no-btn" id="noBtn">No</button>
+    </div>
+    <script>
+      function start() {
+        document.getElementById("container3D").style.opacity = "100%";
+      }
+    </script>
     <div id="container3D"></div>
     <script type="module" src="../scripts/propose.js"></script>
   </body>

@@ -46,10 +46,41 @@ body::before {
     justify-content: left;
     align-items:center;
 }
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+
+.btn {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-family: "Germania One", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.yes-btn {
+    background-color: rgb(0, 94, 0);
+    color: white;
+}
+
+.no-btn {
+    background-color: rgb(173, 0, 0);
+    color: white;
+    position: absolute;
+    left: 120px;  /* Ensure No button starts at a different position */
+}
 #container3D {
     position: fixed;
     inset: 0;
     /* background-color: red; */
     z-index: 100;
+    opacity: 0%;
     pointer-events: none;
 }
