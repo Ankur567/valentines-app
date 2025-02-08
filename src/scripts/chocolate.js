@@ -17,6 +17,7 @@ loader.load('../3D-models/hot_chocolate.glb',
         chocolate = glb.scene;
         scene.add(chocolate);
         chocolate.position.y = -0.5
+        chocolate.position.x = 1.5
         chocolate.rotation.y = 2.094;
         chocolate.scale.set(0.5, 0.5, 0.5);
     },
