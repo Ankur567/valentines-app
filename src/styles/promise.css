@@ -1,0 +1,25 @@
+body {
+  font-family: "Pattaya", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #000000; /* Fallback color if image fails to load */
+  color: #e27aff;
+  font-size: 30px;
+  position: relative; /* Needed for pseudo-element positioning */
+  min-height: 100vh; /* Ensure full coverage */
+}
+#title {
+  text-align: center;
+}
+#para {
+  text-align: center;
+  width: 40%;
+  padding-left: 40px;
+}
+#container3D {
+  position: fixed;
+  inset: 0;
+  /* background-color: red; */
+  z-index: 100;
+  pointer-events: none;
+}
